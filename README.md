@@ -4,7 +4,7 @@ A lightweight Python/tkinter IDE for writing, preprocessing, compiling, and
 running PL/I programs on WSL2, built on the
 [Iron Spring PL/I](http://www.iron-spring.com/) compiler.
 
-![IDE screenshot – editor with syntax highlighting, gutter diagnostics, and output pane](docs/screenshot.png)
+![IDE – editor with syntax highlighting, gutter, and output pane](docs/screenshot_main.png)
 
 ---
 
@@ -13,6 +13,9 @@ running PL/I programs on WSL2, built on the
 - Syntax-highlighted editor (keywords, types, built-ins, strings, comments, preprocessor tokens)
 - Full [Iron Spring PL/I Preprocessor](http://www.iron-spring.com/Iron-SpringPLIPreprocessor.pdf) support — `%dcl`, `%if/%then/%else`, `%do/%end`, `%activate`, `%procedure`, assignments, and more
 - Preprocessor View window — insource listing tab + expanded output tab
+
+  ![Preprocessor View – insource listing with colour-coded statements](docs/screenshot_preprocessor.png)
+
 - Inline diagnostics — error/warning markers in the gutter, highlighted lines, clickable links
 - Find & Replace bar (`Ctrl+F` / `Ctrl+H`)
 - One-click Compile → Link → Run pipeline
